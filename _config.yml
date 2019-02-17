@@ -109,23 +109,23 @@ analytics:
 # Site Author
 author:
   name             : "Machine Learning Club"
-  avatar           : "/assets/images/bio-photo-2.jpg"
+  avatar           : "/assets/images/bio-photo.jpg"
   bio              : "Share your journery to Learn Machine Learning."
   location         : "Mumbai, India"
   email            : "g.himanshu2312@gmail.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: mailto:your.name@email.com
+      url: mailto:g.himanshu2312@gmail.com
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      url: "https://your-website.com"
+      url: #"https://your-website.com"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
+      url: #"https://twitter.com/"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
-      url: "https://facebook.com/"
+      url: #"https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/"

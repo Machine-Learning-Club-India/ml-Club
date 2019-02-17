@@ -1,9 +1,9 @@
 # Authors
 
-Machine Learning Club:
-  name        : "Machine Learning Club"
+Himanshu Goyal:
+  name        : "Himanshu Goyal"
   bio         : "What do you want, jewels? I am a very extravagant man."
-  avatar      : "/assets/images/bio-photo-2.jpg"
+  avatar      : "/assets/images/bio-photo-1.jpg"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"

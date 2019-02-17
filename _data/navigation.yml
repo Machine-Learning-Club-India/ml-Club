@@ -1,19 +1,15 @@
 # main links links
 main:
-  - title: "About"
-    url: https://mmistakes.github.io/minimal-mistakes/about/
   - title: "Start Here"
-    url: /year-archive/
-  - title: "Collections"
+    url: /recipes-archive/
+  - title: "Cheatsheets"
     url: /collection-archive/
-  - title: "Sitemap"
-    url: /sitemap/
-  - title: "Extra Menu Item 1"
-    url: /
-  - title: "Extra Menu Item 2"
-    url: /
-  - title: "Extra Menu Item Long Title"
-    url: /
+  - title: "Reviews"
+    url: /splash-page/
+  - title: "About"
+    url: /sample-page/
+  - title: "Contact"
+    url: /contact/
 
 # sidebar navigation list sample
 sidebar-sample:

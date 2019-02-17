@@ -2,7 +2,7 @@
 main:
   - title: "About"
     url: https://mmistakes.github.io/minimal-mistakes/about/
-  - title: "Posts"
+  - title: "Start Here"
     url: /year-archive/
   - title: "Collections"
     url: /collection-archive/

@@ -1,30 +1,25 @@
 {% if page.author_profile or layout.author_profile or page.sidebar %}
   <div class="article-author-side">
   {% if page.author_profile or layout.author_profile %}{% include author-profile.html %}{% endif %}
+  {% if page.sidebar %}
+    {% for s in page.sidebar %}
+      {% s %}
+      {% if s.image %}
+        <img src=
+        {% if s.image contains "://" %}
+          "{{ s.image }}"
+        {% else %}
+          "{{ s.image | relative_url }}"
+        {% endif %}
+        alt="{% if s.image_alt %}{{ s.image_alt }}{% endif %}">
+      {% endif %}
+      {% if s.title %}<h3>{{ s.title }}</h3>{% endif %}
+      {% if s.text %}{{ s.text | markdownify }}{% endif %}
+      {% if s.nav %}{% include nav_list nav=s.nav %}{% endif %}
+    {% endfor %}
+    {% if page.sidebar.nav %}
+      {% include nav_list nav=page.sidebar.nav %}
+    {% endif %}
+  {% endif %}
   </div>
 {% endif %}
-
-<div class="article-author-side">
-    
-
-    <div itemscope itemtype="http://schema.org/Person">
-
-
-      <a href="index.html"> <img src="images/logo.jpg" class="bio-photo" alt="Machine Learning India bio photo"></a>
-
-      <h3 itemprop="name">Machine Learning India</h3>
-      <p>Fostering science and machine learning in India</p>
-      <a href="mailto:varun@aspiringminds.com" class="author-social" target="_blank"><i class="fa fa-fw fa-envelope-square"></i> Email</a>
-      <a href="https://groups.google.com/forum/?hl=en#!forum/ml-india" class="author-social" target="_blank"><i class="fa fa-fw fa-envelope-square"></i> Mailing List</a>
-      <a href="http://twitter.com/ml_india" class="author-social" target="_blank"><i class="fa fa-fw fa-twitter-square"></i> Twitter</a>
-      <a href="http://github.com/harshnisar/ml-india" class="author-social" target="_blank"><i class="fa fa-fw fa-github"></i> Github</a>
-      
-    </div>
-
-<br>
-<p>
-Are you a student, professor, CEO or Maschinenmensch? Subscribe to ml-india's <a target="_blank" href="https://groups.google.com/forum/?hl=en#!forum/ml-india">google group</a> to join the discussion and recieve updates, news and resources about India's ml-ecosystem. <a href="https://groups.google.com/forum/?hl=en#!forum/ml-india">Click here</a>
-</p>
-
-
-  </div>

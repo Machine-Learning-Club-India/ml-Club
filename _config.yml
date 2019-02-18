@@ -110,8 +110,9 @@ analytics:
 author:
   name             : "Machine Learning Club"
   avatar           : "/assets/images/bio-photo-2.jpg"
-  bio              : "Share your journery to Learn Machine Learning."
+  bio              : "Share your Journey to Master Machine Learning."
   location         : "Mumbai, India"
+  hashtag          : "#MachineLearning #DataScience #MLAlgorithms #DeepLearning #Analytics"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"

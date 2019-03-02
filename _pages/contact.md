@@ -3,7 +3,7 @@ title: "Contact"
 permalink: "/contact.html"
 ---
 
-<form action="https://formspree.io/{{site.email}}" method="POST">    
+<!-- <form action="https://formspree.io/{{site.email}}" method="POST">    
 <p>Please send your message to {{site.name}}. We will reply as soon as possible!</p>
 <div class="form-group row">
 <div class="col-md-6">
@@ -15,4 +15,5 @@ permalink: "/contact.html"
 </div>
 <textarea rows="8" class="form-control mb-3" name="message" placeholder="Message*" required></textarea>    
 <input class="btn btn-success" type="submit" value="Send">
-</form>
+</form>-->
+<iframe width="560" height="500" src="https://himanshugoyal2.typeform.com/to/x4FIYa" frameborder="0" allowfullscreen></iframe>

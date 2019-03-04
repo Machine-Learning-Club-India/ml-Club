@@ -7,7 +7,7 @@ image: https://images.unsplash.com/photo-1528784351875-d797d86873a1?ixlib=rb-1.2
 ---
 Welcome to part II in the series Machine Learning for Actuaries. In part I, we covered how to understand the General Problem Settings in Machine Learning. We also talked about what the Hypothesis Set is. For the sake of this blog, we will consider decision trees (all possible decision trees) as our hypothesis set.
 
-We will cover how decision trees work and see a working example to implement decision trees in R.Please access it from the link below.
+We will cover how decision trees work and see a working example to implement decision trees in R. Please access it from the link below.
 
 <hr class="section-divider"><hr>
 
@@ -23,11 +23,11 @@ based on the data collected from people living in Mumbai and Delhi. We will get 
 ---
 
 ### Terminology related to Decision Trees:
-Let's look at the basic terminology used with Decision trees:
-**ROOT Node**: It represents the entire population or sample and this further gets divided into two or more homogeneous sets.
-**SPLITTING**: It is a process of dividing a node into two or more sub-nodes.
-**Decision Node**: When a sub-node splits into further sub-nodes, then it is called a decision node.
-**Leaf/ Terminal Node**: Nodes do not split is called Leaf or Terminal node.
+Let's look at the basic terminology used with Decision trees:<br>
+**ROOT Node**: It represents the entire population or sample and this further gets divided into two or more homogeneous sets.<br>
+**SPLITTING**: It is a process of dividing a node into two or more sub-nodes.<br>
+**Decision Node**: When a sub-node splits into further sub-nodes, then it is called a decision node.<br>
+**Leaf/ Terminal Node**: Nodes do not split is called Leaf or Terminal node.<br>
 
 In the above example:
 - Each Internal Node (Boxes) tests 1 attribute of the data point (xi)
@@ -77,5 +77,7 @@ Now you would say that it is easy for a human to recognize if the leaf node is H
 **Question 2**: How to define "Homogeneity" mathematically? Define a statistic to give information on how Homogeneous the data is?
 The answer is Entropy. 
 The Entropy of a random variable is defined as :
+
 ![walking]({{ site.baseurl }}/assets/images/what-are-decision-trees-for-actuaries/3.png)
+
 where n is all possible values of X.

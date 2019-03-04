@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Quick-start Guide to R for Actuaries!"
-author: Himanshu
+author: himanshu
 categories: [ guide, r programming, actuaries ]
 image: assets/images/demo1.jpg
 ---

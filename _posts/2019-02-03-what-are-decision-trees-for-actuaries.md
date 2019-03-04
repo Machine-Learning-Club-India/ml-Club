@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Introduction to ML: What are Decision Trees for Actuaries?"
+title:  "Introduction to ML for Actuaries - Part II: What are Decision Trees?"
 author: himanshu
 categories: [ machine-learning, actuaries ]
 image: https://images.unsplash.com/photo-1528784351875-d797d86873a1?ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80

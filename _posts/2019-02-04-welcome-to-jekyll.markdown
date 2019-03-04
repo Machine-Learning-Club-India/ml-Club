@@ -1,24 +1,27 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
-categories: [ Jekyll ]
+title:  "Quick-start Guide to R for Actuaries!"
+categories: [ guide ]
 image: assets/images/demo1.jpg
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+It has become necessary for an actuary (professionals as well as students) to leverage the power of data in their day-to-day analysis. From GLM models in pricing to claims fraud analysis, everything requires handling the huge data for which MS-Excel is no longer optimum. R programming has gained importance not only to handle data for analysis but for the current world of Machine Learning. This guide will help you to learn the basics of R programming required to handle the data in R. If you already know basics of R programming, you can skip ahead and start with 'Quick-start guide to Machine Learning for Actuaries' to understand how the knowledge of statistics & probability can be extended to building machine learning models like fraud analysis.
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+Based on your level of expertise in R, you can start learning from the following blogs.
 
-Jekyll also offers powerful support for code snippets:
+**Beginners**
+- R programming for Actuaries
+- Getting started with analytics in R
+- Basic of Probability and Statistics in R
+- Getting started with ML- An introduction to demystify the topic for actuaries.
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
+**Intermediate**
+- R programming for intermediates
+- 5 analytics an actuary can do for an insurance company
+- Statistical Learning on the real world data
+- 5 predictive models for Insurance Industry
 
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+**Advanced**
+- Coming Soon
 
 [jekyll-docs]: https://jekyllrb.com/docs/home
 [jekyll-gh]:   https://github.com/jekyll/jekyll

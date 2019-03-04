@@ -75,6 +75,7 @@ A1 attribute is doing a better job than A2. Although the second decision tree mi
 Now you would say that it is easy for a human to recognize if the leaf node is Homogeneous, but how will computer get to know this? That leads to my next question
 
 **Question 2**: How to define "Homogeneity" mathematically? Define a statistic to give information on how Homogeneous the data is?
+
 The answer is Entropy. 
 The Entropy of a random variable is defined as :
 

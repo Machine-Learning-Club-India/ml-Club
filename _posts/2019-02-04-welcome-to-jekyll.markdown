@@ -2,6 +2,7 @@
 layout: post
 title:  "Quick-start Guide to R for Actuaries!"
 categories: [ guide ]
+author: Himanshu
 image: assets/images/demo1.jpg
 ---
 It has become necessary for an actuary (professionals as well as students) to leverage the power of data in their day-to-day analysis. From GLM models in pricing to claims fraud analysis, everything requires handling the huge data for which MS-Excel is no longer optimum. R programming has gained importance not only to handle data for analysis but for the current world of Machine Learning. This guide will help you to learn the basics of R programming required to handle the data in R. If you already know basics of R programming, you can skip ahead and start with 'Quick-start guide to Machine Learning for Actuaries' to understand how the knowledge of statistics & probability can be extended to building machine learning models like fraud analysis.

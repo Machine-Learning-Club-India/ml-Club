@@ -3,7 +3,7 @@ layout: post
 title:  "Introduction to ML for Actuaries - Part II: What are Decision Trees?"
 author: himanshu
 categories: [ machine-learning, actuaries ]
-image: https://images.unsplash.com/photo-1528784351875-d797d86873a1?ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80
+image: assets/images/decision-tree-home.png
 ---
 
 Welcome to part II in the series Machine Learning for Actuaries. In part I, we covered how to understand the General Problem Settings in Machine Learning. We also talked about what the Hypothesis Set is. For the sake of this blog, we will consider decision trees (all possible decision trees) as our hypothesis set.
@@ -16,7 +16,7 @@ You use decision trees in a way in your life all the time, but very basic ones. 
 
 Let's say you have < Location, Month, Temperature> as covariates to decide whether to take an umbrella with you or not and the response variable is "Take Umbrella". What we want to do is to approximate a function f such that:
 
-                                *f* : < Location, Month, Temperature> → Take Umbrella
+                    *f* : < Location, Month, Temperature> → Take Umbrella
 
 based on the data collected from people living in Mumbai and Delhi. We will get into that process of making decision trees later. But let's look at what the output will look like.
 ![decision tree]({{ site.baseurl }}/assets/images/what-are-decision-trees-for-actuaries/1.png)

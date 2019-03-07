@@ -10,14 +10,12 @@ One of the promises I made myself at the start of 2019 was that I would finish l
 
 Data visualization is a quick and easy way to convey the message universally. If you are looking for a way to visualize your data and share it with others, [Dash] is an excellent option. With about 100 lines of code, I built an interactive dash to analyze time series data for a financial service company. Written on top of Flask, Plotly.js, and React.js, Dash is ideal for building data visualization apps with highly custom user interfaces in pure Python. Through a couple of simple patterns, Dash abstracts away all of the technologies and protocols required to build an interactive web-based application, making this framework particularly suited for anyone who works with data in Python. It supports the OAuth authentication to secure the dashboards as well.
 
-
 ---
 
 ## What is the difference between Matplotlib, Plotly, and Dash?
 => Matplotlib: Static Visualisation <br>
 => Plotly: Animated visualization, generated in a file (e.g. HTML) <br>
 => Dash: Real-Time animated visualization <br>
-
 
 ---
 
@@ -33,77 +31,6 @@ Week 3:
 - Case Studies <br>
 Week 4:
 - How to Deploy Dash dashboards on various platforms
-
----
-
-## 10 Cool Dashboards for Insipiration
-
-1. INTERACTIVE, PRINTABLE REPORT
-![gif]({{ site.baseurl }}/assets/images/vanguard.gif)
-This application recreates a Vanguard report, but Dash’s flexible framework lets you customize however you see fit. After you’ve crafted exactly the data view you need, use the “Print to PDF” button and make a splash at your next meeting.
-
-See it in action: https://dash-gallery.plotly.host/dash-vanguard-report.
-
-2. INTERACTIVE SPREADSHEETS
-![gif]({{ site.baseurl }}/assets/images/DataTable.gif)
-Create complex, spreadsheet-driven applications with Dash DataTable. This interactive table lets you view, edit, and explore large datasets from the web browser, and is Plotly’s most complex Dash component to date.
-
-DataTable is a Dash component. For more information, visit: https://dash.plot.ly/datatable.
-
-3. SALES DASHBOARD
-![gif]({{ site.baseurl }}/assets/images/salesforce.png)
-Keep tabs on your organization’s sales activity with a Dash app. Check out this traditional dashboard-style CRM application, where you can switch between multiple tabs to track leads, sales, and sources using the most appropriate charts for each scenario.
-
-Try it out: https://dash-gallery.plotly.host/dash-salesforce-crm
-
-
-4. MANUFACTURING ACROSS TIME
-![gif]({{ site.baseurl }}/assets/images/oil-and-gas.gif)
-Need a wide-angle view? Dash has you covered. Select the desired time range you want to explore using interactive sliders and graphs. This particular dashboard-style application displays New York State natural gas well production.
-
-See how it works: https://dash-gallery.plotly.host/dash-oil-and-gas
-
-5. MULTI-LEVEL PIE CHARTS
-![gif]({{ site.baseurl }}/assets/images/sunburst-dropdown.gif)
-Also known as sunburst graphs, these visualizations are great for displaying hierarchical data. Dash apps are interactive, so you can take your data communication a step further by exploring different data categories as the graph updates in real time.
-
-Dash sunburst graphs are a component that can be inserted in your Dash application. Learn more here: https://github.com/plotly/dash-sunburst
-
-Dash sunburst graphs were sponsored by an organization. If your company or organization would like to sponsor our development directly or through our commercial offerings, please reach out.
-
-6. NETWORK GRAPHS
-![gif]({{ site.baseurl }}/assets/images/network-events.gif)
-Understanding relationships is key to business. Whether it’s a complex supply chain, new organizational layout, product distribution, or social network, Dash network graphs are a dynamic way to explore and display complex relationships.
-
-Network graphs are a Dash component. To learn more: https://github.com/plotly/dash-network
-
-Dash network graphs were sponsored by an organization. If your company or organization would like to sponsor our development directly or through our commercial offerings, please reach out: https://plot.ly/products/consulting-and-oem/
-
-7. TRACKING THE MARKET
-![gif]({{ site.baseurl }}/assets/images/dash-web-trader.gif)
-Get a live visual on the day’s ups and downs with a Dash app like this one, which tracks the foreign exchange. Dash’s callback system enables continuous queries for the latest updates, no matter which market you’re targeting.
-
-View the demo app here: https://dash-gallery.plotly.host/dash-web-trader
-
-8. MULTI-YEAR MAPPING
-![gif]({{ site.baseurl }}/assets/images/opioid-epidemic.png)
-This Dash app shows over a decade of U.S. county-level data for exploration, and was written in less than 400 lines of Python code. You’ll see that each interaction with the sliders, map, graph, colorbar, and dropdown automatically updates the rest of the app’s features.
-
-Start exploring: https://opioid-epidemic.herokuapp.com/
-
-9. VISUALIZE MACHINE LEARNING
-![gif]({{ site.baseurl }}/assets/images/dash-live-model-training.gif)
-If you’re using machine learning to sharpen your business intelligence, an accurate model is everything. This Dash app visualizes accuracy and loss, two key factors when training your model. The real-time feedback is extremely useful, and it’s possible because Dash’s Python interface integrates so well with unstructured data and analytical code.
-
-See how it works: https://dash-gallery.plotly.host/dash-live-model-training
-
-10. NATURAL LANGUAGE PROCESSING
-
-![gif]({{ site.baseurl }}/assets/images/tsne.png)
-
-Speaking of machine learning, if you’re using it for natural language processing, you may be interested in word embeddings. This Dash app maps how often words appear near each other in a text, with regards to how often they are used.
-
-Try it yourself and get the technical details here: https://dash-gallery.plotly.host/dash-tsne
 
 ---
 
@@ -127,6 +54,55 @@ Architecture
 
 
 ---
+
+## 10 Cool Dashboards for Insipiration
+
+1. INTERACTIVE REPORT
+![gif]({{ site.baseurl }}/assets/images/dash-app3.gif)
+This application recreates a Goldman Sachs report. Dash’s flexible framework lets you customize however you see fit. This dashboard is created in the brand colors and style of Goldman Sachs. See it in action: https://plot.ly/~jackp/17561.
+
+2. INTERACTIVE SPREADSHEETS
+![gif]({{ site.baseurl }}/assets/images/DataTable.gif)
+Create complex, spreadsheet-driven applications with Dash DataTable. This interactive table lets you view, edit, and explore large datasets from the web browser, and is Plotly’s most complex Dash component to date. DataTable is a Dash component. For more information, visit: https://dash.plot.ly/datatable.
+
+3. SALES DASHBOARD
+![gif]({{ site.baseurl }}/assets/images/salesforce.png)
+Keep tabs on your organization’s sales activity with a Dash app. Check out this traditional dashboard-style CRM application, where you can switch between multiple tabs to track leads, sales, and sources using the most appropriate charts for each scenario. Try it out: https://dash-gallery.plotly.host/dash-salesforce-crm
+
+4. MANUFACTURING ACROSS TIME
+![gif]({{ site.baseurl }}/assets/images/oil-and-gas.gif)
+Need a wide-angle view? Dash has you covered. Select the desired time range you want to explore using interactive sliders and graphs. This particular dashboard-style application displays New York State natural gas well production. See how it works: https://dash-gallery.plotly.host/dash-oil-and-gas
+
+5. MULTI-LEVEL PIE CHARTS
+![gif]({{ site.baseurl }}/assets/images/sunburst-dropdown.gif)
+Also known as sunburst graphs, these visualizations are great for displaying hierarchical data. Dash apps are interactive, so you can take your data communication a step further by exploring different data categories as the graph updates in real time. Dash sunburst graphs are a component that can be inserted in your Dash application. Learn more here: https://github.com/plotly/dash-sunburst
+
+6. NETWORK GRAPHS
+![gif]({{ site.baseurl }}/assets/images/network-events.gif)
+Understanding relationships is key to business. Whether it’s a complex supply chain, new organizational layout, product distribution, or social network, Dash network graphs are a dynamic way to explore and display complex relationships. Network graphs are a Dash component. To learn more: https://github.com/plotly/dash-network
+
+7. TRACKING THE MARKET
+![gif]({{ site.baseurl }}/assets/images/dash-web-trader.gif)
+Get a live visual on the day’s ups and downs with a Dash app like this one, which tracks the foreign exchange. Dash’s callback system enables continuous queries for the latest updates, no matter which market you’re targeting. View the demo app here: https://dash-gallery.plotly.host/dash-web-trader
+
+8. MULTI-YEAR MAPPING
+![gif]({{ site.baseurl }}/assets/images/opioid-epidemic.png)
+This Dash app shows over a decade of U.S. county-level data for exploration, and was written in less than 400 lines of Python code. You’ll see that each interaction with the sliders, map, graph, colorbar, and dropdown automatically updates the rest of the app’s features.
+
+Start exploring: https://opioid-epidemic.herokuapp.com/
+
+9. VISUALIZE MACHINE LEARNING
+![gif]({{ site.baseurl }}/assets/images/dash-live-model-training.gif)
+If you’re using machine learning to sharpen your business intelligence, an accurate model is everything. This Dash app visualizes accuracy and loss, two key factors when training your model. The real-time feedback is extremely useful, and it’s possible because Dash’s Python interface integrates so well with unstructured data and analytical code. See how it works: https://dash-gallery.plotly.host/dash-live-model-training
+
+10. NATURAL LANGUAGE PROCESSING
+
+![gif]({{ site.baseurl }}/assets/images/tsne.png)
+
+Speaking of machine learning, if you’re using it for natural language processing, you may be interested in word embeddings. This Dash app maps how often words appear near each other in a text, with regards to how often they are used. Try it yourself and get the technical details here: https://dash-gallery.plotly.host/dash-tsne
+
+---
+
 
 I highly recommend Plotly as a visualization toolkit. Well, I will be giving up Matplotlib and taking up Plotly for a very long period of time now!
 

@@ -3,7 +3,7 @@ layout: post
 title:  "Tool of the Month: How to create interactive dashboards using Dash by Plotly?"
 author: himanshu
 categories: [ data visualization, Dash ]
-image: assets/images/4.jpg
+image: assets/images/plotly.png
 tags: [featured]
 ---
 One of the promises I made myself at the start of 2019 was that I would finish learning one new tech or one online course per month. I have already started the Machine Learning course by Tom Mitchell in January (you can find my online notes here) and still going on. For the month of February, I wanted to learn something less exhaustive and chose 'Interactive Python Dashboards with Plotly and Dash".

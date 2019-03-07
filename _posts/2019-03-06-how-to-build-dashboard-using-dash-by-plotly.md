@@ -34,6 +34,17 @@ Week 3:
 Week 4:
 - How to Deploy Dash dashboards on various platforms
 
+---
+
+My Notes:
+Dash makes it dead-simple to build a GUI around your data analysis code. Here’s a 43-line example of a Dash App. As the user selects a value in the Dropdown, the application code dynamically exports data from Google Finance into a Pandas DataFrame. This app was written in just 43 lines of code (view the source). Simple.
+
+![gif]({{ site.baseurl }}/assets/images/dash-app1.jpg)
+
+
+Dash app code is declarative and reactive, which makes it easy to build complex apps that contain many interactive elements. Here’s an example with 5 inputs, 3 outputs, and cross-filtering. This app was built in just 160 lines of code, all of which were Python.
+
+![gif]({{ site.baseurl }}/assets/images/dash-app2.jpg)
 
 ---
 

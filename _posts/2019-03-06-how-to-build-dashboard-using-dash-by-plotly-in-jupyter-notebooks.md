@@ -14,25 +14,25 @@ Data visualization is a quick and easy way to convey the message universally. If
 ---
 
 ## What is the difference between Matplotlib, Plotly, and Dash?
-=> Matplotlib: Static Visualisation
-=> Plotly: Animated visualization, generated in a file (e.g. HTML)
-=> Dash: Real-Time animated visualization
+=> Matplotlib: Static Visualisation <br>
+=> Plotly: Animated visualization, generated in a file (e.g. HTML) <br>
+=> Dash: Real-Time animated visualization <br>
 
 
 ---
 
 ## Table of Content
 Week 1:
- - [How to build your first dashboard using Dash]({{ site.baseurl }}/assets/images/3.jpg)
- - [How to build Scatter 2D and 3D plots in Dash]({{ site.baseurl }}/assets/images/3.jpg)
+- [How to build your first dashboard using Dash]({{ site.baseurl }}/build-your-first-dashboard-using-Dash)
+- [How to build Scatter 2D and 3D plots in Dash]({{ site.baseurl }}/build-scatter-2d-and-3-plots-in-dash) <br>
 Week 2:
- - How to make Heatmaps using Dash
- - How to make Time Series Plots using Dash
+- How to make Heatmaps using Dash
+- How to make Time Series Plots using Dash <br>
 Week 3:
- - How to make dashboard using Dash in Jupyter Notebook
- -Case Studies
+- How to make dashboard using Dash in Jupyter Notebook
+- Case Studies <br>
 Week 4:
- - How to Deploy Dash dashboards on various platforms
+- How to Deploy Dash dashboards on various platforms
 
 
 ---
@@ -42,6 +42,6 @@ I highly recommend Plotly as a visualization toolkit. Well, I will be giving up 
 
 ---
 
-Read User guide to Dash from https://dash.plot.ly & Follow Plotly on
-Instagram: https://t.co/mwuo0P15zB
-Twitter: https://t.co/uhrfjR4TBj
+Read User guide to Dash from https://dash.plot.ly & Follow Plotly on <br>
+Instagram: https://t.co/mwuo0P15zB <br>
+Twitter: https://t.co/uhrfjR4TBj <br>

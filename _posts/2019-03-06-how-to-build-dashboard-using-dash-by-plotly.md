@@ -35,20 +35,11 @@ Week 4:
 ---
 
 ## My Notes:
-Dash makes it dead-simple to build a GUI around your data analysis code. Here’s a 43-line example of a Dash App. As the user selects a value in the Dropdown, the application code dynamically exports data from Google Finance into a Pandas DataFrame. This app was written in just 43 lines of code (view the source). Simple.
-
-![gif]({{ site.baseurl }}/assets/images/dash-app1.gif)
-
-
-Dash app code is declarative and reactive, which makes it easy to build complex apps that contain many interactive elements. Here’s an example with 5 inputs, 3 outputs, and cross-filtering. This app was built in just 160 lines of code, all of which were Python.
+Dash makes it dead-simple to build a GUI around your data analysis code. Dash app code is declarative and reactive, which makes it easy to build complex apps that contain many interactive elements. Here’s an example with 5 inputs, 3 outputs, and cross-filtering. This app was built in just 160 lines of code, all of which were Python.
 
 ![gif]({{ site.baseurl }}/assets/images/dash-app2.gif)
 
-Every aesthetic element of the app is customizable: The sizing, the positioning, the colors, the fonts. Dash apps are built and published in the Web, so the full power of CSS is available. Here’s an example of a highly customized, interactive Dash report app, in the brand and style of a Goldman Sachs report. ([Source Code](https://plot.ly/~jackp/17561))
-
-![gif]({{ site.baseurl }}/assets/images/dash-app3.gif)
-
-While Dash apps are viewed in the web browser, you don’t have to write any Javascript or HTML. Dash provides a Python interface to a rich set of interactive web-based components.
+Every aesthetic element of the app is customizable: The sizing, the positioning, the colors, the fonts. Dash apps are built and published in the Web, so the full power of CSS is available. While Dash apps are viewed in the web browser, you don’t have to write any Javascript or HTML. Dash provides a Python interface to a rich set of interactive web-based components.
 
 Architecture
 
@@ -87,28 +78,32 @@ Get a live visual on the day’s ups and downs with a Dash app like this one, wh
 
 8. MULTI-YEAR MAPPING
 ![gif]({{ site.baseurl }}/assets/images/opioid-epidemic.png)
-This Dash app shows over a decade of U.S. county-level data for exploration, and was written in less than 400 lines of Python code. You’ll see that each interaction with the sliders, map, graph, colorbar, and dropdown automatically updates the rest of the app’s features.
-
-Start exploring: https://opioid-epidemic.herokuapp.com/
+This Dash app shows over a decade of U.S. county-level data for exploration, and was written in less than 400 lines of Python code. You’ll see that each interaction with the sliders, map, graph, colorbar, and dropdown automatically updates the rest of the app’s features.Start exploring: https://opioid-epidemic.herokuapp.com/
 
 9. VISUALIZE MACHINE LEARNING
 ![gif]({{ site.baseurl }}/assets/images/dash-live-model-training.gif)
 If you’re using machine learning to sharpen your business intelligence, an accurate model is everything. This Dash app visualizes accuracy and loss, two key factors when training your model. The real-time feedback is extremely useful, and it’s possible because Dash’s Python interface integrates so well with unstructured data and analytical code. See how it works: https://dash-gallery.plotly.host/dash-live-model-training
 
 10. NATURAL LANGUAGE PROCESSING
-
 ![gif]({{ site.baseurl }}/assets/images/tsne.png)
-
 Speaking of machine learning, if you’re using it for natural language processing, you may be interested in word embeddings. This Dash app maps how often words appear near each other in a text, with regards to how often they are used. Try it yourself and get the technical details here: https://dash-gallery.plotly.host/dash-tsne
 
----
+11. Interactive Machine Learning Explorer
+![gif]({{ site.baseurl }}/assets/images/tsne-machine.gif)
+This is an interactive machine learning explorer for clustering data with t-distributed stochastic neighbor embedding (t-SNE). Published by Van der Maaten and Hinton in 2008, t-SNE is an algorithm that reduces a high-dimensional space into two or three dimensions, so we can more easily see how data is clustered. UMAP has been reported as an alternative clustering method to t-SNE recently — can you make a Dash app that clusters data using UMAP? https://dash-tsne.herokuapp.com/
 
+12. UFC MMA Predictor Web App
+![gif]({{ site.baseurl }}/assets/images/mma.gif)
+This Dash app has had some success predicting UFC (“Ultimate Fighting Championship”) match outcomes. https://ufcmmapredictor.herokuapp.com/
+
+---
 
 I highly recommend Plotly as a visualization toolkit. Well, I will be giving up Matplotlib and taking up Plotly for a very long period of time now!
 
-
 ---
 
-Read User guide to Dash from https://dash.plot.ly & Follow Plotly on <br>
-Instagram: https://t.co/mwuo0P15zB <br>
-Twitter: https://t.co/uhrfjR4TBj <br>
+Further Resources and Footnotes
+1. Dash User Guide https://plot.ly/dash
+2. Plotly GitHub https://github.com/plotly
+
+Follow Plotly on Instagram: https://instagram.com/machine.learning.club 
